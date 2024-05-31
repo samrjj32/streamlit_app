@@ -1,0 +1,22 @@
+.st-emotion-cache-j5r0tf{
+    padding:1rem;
+    border-radius: 0.5rem;
+    background-color: rgb(116, 28, 116);
+
+}
+
+.diag{
+    color:white;
+    padding:0.2em 0.5em;
+    border-radius:0.5em;
+
+}
+
+.diag.b{
+    background-color: rgb(116, 177, 25);
+
+}
+
+.diag.m{
+    background-color: rgb(192, 6, 6);
+}

@@ -2,9 +2,7 @@ streamlit
 pandas
 pickle
 numpy
-plotly.graph_objects
-sklearn.preprocessing
-sklearn.model_selection
-sklearn.linear_model
-sklearn.metrics
 plotly
+
+
+

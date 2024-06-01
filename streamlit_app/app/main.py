@@ -3,7 +3,7 @@ import pandas as  pd
 import pickle as pickle
 import plotly.graph_objects as go
 import numpy as np
-import plotly
+
 
 def get_clean_data():
 

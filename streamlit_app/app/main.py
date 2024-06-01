@@ -158,10 +158,10 @@ def add_predictions(input_data):
     if prediction[0]==0:
         st.write("<span class='diag b'>BENIGN</span>",unsafe_allow_html=True)
     else:
-        st.write("<span class='diag m'>MALICIOUS</span>",unsafe_allow_html=True)
+        st.write("<span class='diag m'>MALIGNANT</span>",unsafe_allow_html=True)
 
     st.write("probability of being benign is :",model.predict_proba(input_array_scaled)[0][0])
-    st.write("probability of being malicious is :",model.predict_proba(input_array_scaled)[0][1])
+    st.write("probability of being malignant is :",model.predict_proba(input_array_scaled)[0][1])
 
     st.write("this app assists medical proffessionals in making a diagnosis")
 
